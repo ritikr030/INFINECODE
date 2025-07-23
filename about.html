@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillUp Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+    .hero button {
+      background-color: white;
+      color: #764ba2;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .features, .testimonials, .pricing, footer {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .testimonial {
+      font-style: italic;
+      margin: 20px 0;
+    }
+    .pricing-table {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .pricing-plan {
+      background: white;
+      border: 1px solid #ccc;
+      padding: 25px;
+      border-radius: 8px;
+      width: 250px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+    }
+    footer a {
+      margin: 0 10px;
+      color: #bbb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Boost Your Career with RITZ SkillUp</h1>
+    <p>Who are we? Your path to professional excellence starts here.</p>
+    <button onclick="enroll()">Enroll Now</button>
+  </header>
+
+  <!-- 📚 Course Features -->
+  <section class="features">
+    <h2>Course Features</h2>
+    <div class="grid">
+      <div class="card">📚 Expert Mentors</div>
+      <div class="card">🧑‍💻 Real-World Projects</div>
+      <div class="card">📄 Certification</div>
+      <div class="card">⏱ Lifetime Access</div>
+    </div>
+  </section>
+
+  <!-- 💬 Testimonials -->
+  <section class="testimonials">
+    <h2>What Our Learners Say</h2>
+    <div class="testimonial">“SkillUp changed my life! The projects were amazing.” — Priya</div>
+    <div class="testimonial">“Great mentors and a super supportive community!” — Arjun</div>
+  </section>
+
+  <!-- 💰 Pricing Section -->
+  <section class="pricing">
+    <h2>Choose Your Plan</h2>
+    <div class="pricing-table">
+      <div class="pricing-plan">
+        <h3>Basic</h3>
+        <p>Access to core lessons</p>
+        <p><strong>₹499</strong></p>
+      </div>
+      <div class="pricing-plan">
+        <h3>Pro</h3>
+        <p>Includes projects & community access</p>
+        <p><strong>₹999</strong></p>
+      </div>
+      <div class="pricing-plan">
+        <h3>Premium</h3>
+        <p>All features + live mentor support</p>
+        <p><strong>₹1499</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔗 Footer -->
+  <footer>
+    <p>Connect with us:</p>
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Twitter</a>
+  </footer>
+
+  
+
+  <!-- 🧠 Optional JavaScript -->
+  <script>
+    function enroll() {
+      alert("Thanks for choosing SkillUp! 🚀");
+    }
+  </script>
+
+</body>
+</html>
